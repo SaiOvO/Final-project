@@ -21,7 +21,7 @@ public class Stage21 implements Stage{
 
 		if(option == 1) 
 		{
-			System.out.println("no");
+
 			System.out.println("Archie pounces on the hare, but suddenly the hare runs away. Archie chases after the hare and you follow him. When you look around, the hare is gone and you are lost.");
 			if(!Game.coinflip2())//if you fail coinflip
 			{
