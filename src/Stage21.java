@@ -44,7 +44,7 @@ public class Stage21 implements Stage{
 				return;
 			}
 
-			System.out.println("You and Archie find the hare before the bear notices you. The two of you run in the opposite direction and you realize that it is almost nighttime. Unfortunately, you do not have any camping supplies and need to get shelter before its too late.")
+			System.out.println("You and Archie find the hare before the bear notices you. The two of you run in the opposite direction and you realize that it is almost nighttime. Unfortunately, you do not have any camping supplies and need to get shelter before its too late.");
 	}
 
 	/**
