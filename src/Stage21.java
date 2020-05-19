@@ -45,7 +45,12 @@ public class Stage21 implements Stage{
 			}
 		}
 			System.out.println("You and Archie find the hare before the bear notices you. The two of you run in the opposite direction and you realize "
-					+ "that it is almost nighttime. Unfortunately, \nayou do not have any camping supplies and need to get shelter before its too late.");
+					+ "that it is almost nighttime. Unfortunately, \nayou do not have any camping supplies and need to get shelter before its too late. As "
+					+ "night comes, ir starts to rain. You attempt to walk around to find a safe place to camp for shelter. With the lack of supplies you can't "
+					+ "go far. You get so cold and your fingers turn blue. You try to sleep but its so cold you can't. Exhaustion takes over and you have no "
+					+ "strength. The storm rages outside and you don't see light for many hours. You pass out and your eyes freeze shut. They never open again.");
+			Game.getGame().die();
+			return;
 	}
 
 	/**
@@ -59,7 +64,7 @@ public class Stage21 implements Stage{
 		}
 		else if (option == 2)
 		{
-			return new Stage212();
+			System.exit(0);
 		}
 		return this;
 	}
