@@ -70,7 +70,7 @@ public class Stage11 implements Stage {
 				}
 				else if(ghealth<=0) {
 					System.out.println("The ghost falls to the ground and slow starts to disappear leaving behind a small glowing orb. You place in your bag and"
-							+ " quickly finish gathering the supplies left you needed. Finally you head to the hunting grounds.");
+							+ " quickly finish gathering the supplies left you needed. Finally you head to the hunting grounds. \n");
 					break;
 				}
 			}
