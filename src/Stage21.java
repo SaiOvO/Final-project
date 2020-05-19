@@ -45,7 +45,7 @@ public class Stage21 implements Stage{
 			}
 		}
 			System.out.println("You and Archie find the hare before the bear notices you. The two of you run in the opposite direction and you realize "
-					+ "that it is almost nighttime. Unfortunately, \nyou do not have any camping supplies and need to get shelter before its too late.");
+					+ "that it is almost nighttime. Unfortunately, \nayou do not have any camping supplies and need to get shelter before its too late.");
 	}
 
 	/**
@@ -55,11 +55,11 @@ public class Stage21 implements Stage{
 	public Stage getNextStage() {
 		if (option == 1)
 		{
-			
+			return new Stage212();
 		}
 		else if (option == 2)
 		{
-			
+			return new Stage212();
 		}
 		return this;
 	}

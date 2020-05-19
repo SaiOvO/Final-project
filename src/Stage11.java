@@ -27,7 +27,7 @@ public class Stage11 implements Stage {
 		if(option == 1) 
 		{
 			System.out.println("You start running in the oposite way of where you think the ghost is. You hear wind following behind you as you and Archie run home."
-					+ " As your running you \nslowly hear the wind noise fading the closer you get to your small house. You relise you have enough supplies for now"
+					+ " As your running you \nslowly hear the wind noise fading the closer you get to your small house. You realise you have enough supplies for now"
 					+ " and don't want to jepordize your or Archies life anymore and decide to \ntravel into town the next morning to tells others about your "
 					+ "interactions and get a search party together to investigate the woods more. Your party is never found again but every day people \nsee Archie"
 					+ " sitting in front of your house waiting of for your return.");
