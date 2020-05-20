@@ -22,7 +22,7 @@ public class Stage11 implements Stage {
 				+ "As you're collecting wood \nArchie starts barking behind you. You can't see anything when you are hit in the stomach and see a few leave fly "
 				+ "around you. Do you (1) Run away, (2) Attempt to fight, or (3) Flirt\n>");
 		
-		option = Game.getGame().nextInt(1, 2);
+		option = Game.getGame().nextInt(1, 3);
 		
 		if(option == 1) 
 		{

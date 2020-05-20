@@ -60,6 +60,7 @@ public class Stage111 implements Stage {
 					+ "shattered on the ground and in the setting sun, you see the female ghost again. However this time she is wearing a beautiful white dress and her "
 					+ "long hair flows and glistens in the setting sun. She thanks you for releasing her from the prison of the orb. You live your life with ease and for "
 					+ "some reason extreme luck, is always on your side.");
+			System.exit(0);
 			
 		}
 	}
@@ -71,11 +72,11 @@ public class Stage111 implements Stage {
 	public Stage getNextStage() {
 		if (option == 1)
 		{
-			System.exit(0);
+			
 		}
 		else if (option == 2)
 		{
-			System.exit(0);
+		
 		}
 		return this;
 	}

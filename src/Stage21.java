@@ -64,7 +64,7 @@ public class Stage21 implements Stage{
 		}
 		else if (option == 2)
 		{
-			System.exit(0);
+
 		}
 		return this;
 	}
