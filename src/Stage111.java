@@ -17,8 +17,8 @@ public class Stage111 implements Stage {
 		
 		if(option == 1) 
 		{
-			System.out.println("You decide to head home. On your way Archie get tired and so you stop to get water by the lake again. You slash the water on"
-					+ " your face as you watch Archie drink water as well. He seems to just grow more tired and \ntired. He starts to look ill as you continue to "
+			System.out.println("You decide to head home. On your way Archie get tired and so you stop to get water by the lake again. You splash the water on"
+					+ " your face as you watch Archie drink water as. He seems to just grow more tired and \ntired. He starts to look ill as you continue to "
 					+ "walk home. Once you enter your house, Archie goes to lay on his bed.\n");
 			if(!Game.coinflip2()) {
 				System.out.println("Something in your head starts to pound. You feel a sudden urge to throw up and run to the restroom. As you throw up and look"

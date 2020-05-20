@@ -27,8 +27,8 @@ public class Stage11 implements Stage {
 		if(option == 1) 
 		{
 			System.out.println("You start running in the oposite way of where you think the ghost is. You hear wind following behind you as you and Archie run home."
-					+ " As you're running, you \nslowly hear the wind noise fading the closer you get to your small house. You realise you have enough supplies for now"
-					+ " and don't want to jepordize your or Archies life anymore and decide to travel into town the next morning to tells others about your "
+					+ " As you're running, you \nslowly hear the wind noise fading the closer you get to your small house. You realize you have enough supplies for now"
+					+ " and don't want to jepordize yours, or Archies life anymore and decide to travel into town the next morning to tells others about your "
 					+ "interactions and get a search party together to investigate the woods more. Your party is never found again but every day people \nsee Archie"
 					+ " sitting in front of your house waiting of for your return.");
 		}
@@ -75,15 +75,12 @@ public class Stage11 implements Stage {
 				}
 			}
 		}
-		/*
-		 * TODO fix the grammar shit
-		 */
-		
 		else {
 			System.out.println("You see around for the floating leaves. You lean agaist the tree, ask it \"come here often?\" You can tell the ghost has stopped"
 					+ " moving as it considers your offer. Suddenly you feel a cold pressence passes through you as your life force slowly drains. The pain is "
 					+ "agonizing but you can't move a muscle. You are brought to your knees in a moments time. With your last breath you look up to to see a figure "
-					+ "of a female kneel before you and rest her hand on your chin. Your eyesight fades into darkness. This is where you have met your end.");
+					+ "of a female kneel before. You and rest your chin on her hand and stare into her eyes. Your eyesight fades into darkness. This is where you "
+					+ "have met your end.");
 			Game.getGame().die();
 			return;
 		}
