@@ -16,7 +16,7 @@ public class Stage1 implements Stage {
 	public void executeRoutine() {
 		System.out.print("There is still sun out and you need supplies, you take your trusty axe and your hunting knife with you into the woods."
 				+ " Your dog, Archie, decides to follows you."
-						+ "\nWhere do you deside to go first? (1) River (2) Hunting grounds?\n>");//river question
+						+ "\nWhere do you decide to go first? (1) River (2) Hunting grounds?\n>");//river question
 		
 		option = Game.getGame().nextInt(1, 2);
 		
