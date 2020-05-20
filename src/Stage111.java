@@ -27,6 +27,7 @@ public class Stage111 implements Stage {
 						+ "everywhere. You hear Archie cry out in pain and go to sit with him. You both stay there until you feel another urge to vomit."
 						+ " Finally you close your eyes with Archie on your lap as you both fall asleep, never to wake again.");
 				Game.getGame().die();
+				System.exit(0);
 			}
 			System.out.println("You feel your stomach hurt and think that maybe the fresh fruit will help. You walk over to the fruit to find that they have"
 					+ " all rotted with maggots sitting in your bag. You feel the urge to vomit from the sight and the pain from your stomach. You go to vomit outside"
