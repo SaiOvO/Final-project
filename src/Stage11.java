@@ -75,6 +75,10 @@ public class Stage11 implements Stage {
 				}
 			}
 		}
+		/*
+		 * TODO fix the grammar shit
+		 */
+		
 		else {
 			System.out.println("You see around for the floating leaves. You lean agaist the tree, ask it \"come here often?\" You can tell the ghost has stopped"
 					+ " moving as it considers your offer. Suddenly you feel a cold pressence passes through you as your life force slowly drains. The pain is "

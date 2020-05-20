@@ -22,7 +22,7 @@ public class Stage1 implements Stage {
 		
 		if(option == 1) 
 		{
-			System.out.println("You go to the river to collect water. As your collecting water you hear rustling near you as Archie starts to bark. "
+			System.out.println("You go to the river to collect water. As you're collecting water you hear rustling near you as Archie starts to bark. "
 					+ "You get startled and fall into the river. You attempt to swim out.");
 			if(!Game.coinflip())//if you fail coinflip
 			{
