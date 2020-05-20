@@ -19,7 +19,7 @@ public class Stage11 implements Stage {
 	@Override
 	public void executeRoutine() {
 		System.out.print("You walk around collecting small sticks for kindeling. You find an old tree that looks like you can chop it down with ease. "
-				+ "As you're collecting wood \nArchie starts barking behind you. You can't see anything when you are hit in the stomach and see a few leave fly "
+				+ "As you're collecting wood Archie starts barking behind you. You can't see anything when you are hit in the stomach and see a few leaves fly "
 				+ "around you. Do you (1) Run away, (2) Attempt to fight, or (3) Flirt\n>");
 		
 		option = Game.getGame().nextInt(1, 3);
@@ -27,8 +27,8 @@ public class Stage11 implements Stage {
 		if(option == 1) 
 		{
 			System.out.println("You start running in the oposite way of where you think the ghost is. You hear wind following behind you as you and Archie run home."
-					+ " As your running you \nslowly hear the wind noise fading the closer you get to your small house. You realise you have enough supplies for now"
-					+ " and don't want to jepordize your or Archies life anymore and decide to \ntravel into town the next morning to tells others about your "
+					+ " As you're running, you \nslowly hear the wind noise fading the closer you get to your small house. You realise you have enough supplies for now"
+					+ " and don't want to jepordize your or Archies life anymore and decide to travel into town the next morning to tells others about your "
 					+ "interactions and get a search party together to investigate the woods more. Your party is never found again but every day people \nsee Archie"
 					+ " sitting in front of your house waiting of for your return.");
 		}
@@ -64,12 +64,12 @@ public class Stage11 implements Stage {
 				System.out.println("Your health: "+health+" \nGhost health: "+ghealth+"\n");
 				if(health<=0) {
 					System.out.println("Sadly the ghost got the best of you. As you tkae your final breathe, she stares deeply into your eyes as both past present"
-							+ "and future \nall flash in yout mind at once as she explodes your lungs and you fall to the ground\n");
+							+ "and future all flash in yout mind at once as she explodes your lungs and you fall to the ground\n");
 					Game.getGame().die();
 					break;
 				}
 				else if(ghealth<=0) {
-					System.out.println("The ghost falls to the ground and slow starts to disappear leaving behind a small glowing orb. You place in your bag and"
+					System.out.println("The ghost falls to the ground and slowly starts to disappear leaving behind a small glowing orb. You place in your bag and"
 							+ " quickly finish gathering the supplies left you needed. Finally you head to the hunting grounds. \n");
 					break;
 				}
