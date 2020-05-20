@@ -18,7 +18,7 @@ public class Stage11 implements Stage {
 	 */
 	@Override
 	public void executeRoutine() {
-		System.out.print("You walk around collecting small sticks for kindeling. You find an old tree that looks like you can chop it down with ease. "
+		System.out.print("You walk around collecting small sticks for kindling. You find an old tree that looks like you can chop it down with ease. "
 				+ "As you're collecting wood Archie starts barking behind you. You can't see \nanything when you are hit in the stomach and see a few leaves fly "
 				+ "around you. Do you (1) Run away, (2) Attempt to fight, or (3) Flirt\n>");
 		
@@ -28,7 +28,7 @@ public class Stage11 implements Stage {
 		{
 			System.out.println("You start running in the oposite way of where you think the ghost is. You hear wind following behind you as you and Archie run home."
 					+ " As you're running, you \nslowly hear the wind noise fading the closer you get to your small house. You realize you have enough supplies for now"
-					+ " and don't want to jepordize yours, or Archies life anymore and decide to travel into town the next morning to tells others about your "
+					+ " and don't want to jeopardize yours, or Archies life anymore and decide to travel into town the next morning to tells others about your "
 					+ "interactions and get a search party together to investigate the woods more. Your party is never found again but every day people \nsee Archie"
 					+ " sitting in front of your house waiting of for your return.");
 		}
@@ -54,7 +54,7 @@ public class Stage11 implements Stage {
 				else {
 					health-=3;
 				}
-				System.out.println("\nYou use your ax and hit for a stronger attack. Archie runs in a bites her causing a pain sream from the ghost.\n");
+				System.out.println("\nYou use your axe and hit for a stronger attack. Archie runs in a bites her causing a pain scream from the ghost.\n");
 				if ((int)(Math.random()*100%2)==0) {
 				ghealth-=3;
 				}

@@ -8,7 +8,7 @@ public class Stage111 implements Stage {
 	@Override
 	public void executeRoutine() {
 		System.out.print("On your way to the hunting grounds you watch Archie start to chase after a butterfly. You follow Archie through the"
-				+ " woods into a clearing. Its filled with green grass with flowers of all colors. On the trees grow fresh \nfruits. You pick a few "
+				+ " woods into a clearing. It's filled with green grass with flowers of all colors. On the trees grow fresh \nfruits. You pick a few "
 				+ "and place them into your bag. A small bird lands on your shoulder and starts to whistle a small tune your mother used to sing "
 				+ "before you slept. The sun starts to set and you remembered \nthe day before you set some snare traps and if you don't check them today,"
 				+ " they will be taken by animals. Do you (1) head home or (2) go check your snare traps for animals? \n>");
@@ -31,7 +31,7 @@ public class Stage111 implements Stage {
 			}
 			System.out.println("You feel your stomach hurt and think that maybe the fresh fruit will help. You walk over to the fruit to find that they have"
 					+ " all rotted with maggots sitting in your bag. You feel the urge to vomit from the sight \nand the pain from your stomach. You go to vomit outside"
-					+ " and see its all black with bugs grawling around. You realise that the only thing that could be effecting you would be the orb. You go to"
+					+ " and see its all black with bugs grawling around. You realize that the only thing that could be effecting you would be the orb. You go to"
 					+ " get orb when \nand see despite being around the fruit and bugs, it still shines beautifully.\n");
 			if (!Game.coinflip2()) {
 				System.out.println("You can't bring yourself to get rid of the beautiful ord. You stare into it as you feel it draw in your eyes. You hear voices "
@@ -44,8 +44,8 @@ public class Stage111 implements Stage {
 			}
 			System.out.println("You don't know if you should break it or what. You hear Archie start to growl from the other side of the room. He lunges at you, "
 					+ "tearing off a chunk of flesh. He's eyes glow red with hunger, anger, bloodlust. Out of fear of your life you pull out your knife and hold "
-					+ "it out before you for defence. You close your eyes and looks away. You feel Archies teeth dig into your shoulder and feel his body press "
-					+ "agaist the knife. You feel the warm blood on your body. You go to burry his body and see the orb. Out of anger you throw it agaist the ground"
+					+ "it out before you for defense. You close your eyes and looks away. You feel Archies teeth dig into your shoulder and feel his body press "
+					+ "against the knife. You feel the warm blood on your body. You go to burry his body and see the orb. Out of anger you throw it agaist the ground"
 					+ " and shatter it. Your life is now forever cursed with the memories that play in your mind everyday, but despite that, you have great fortune in"
 					+ " the years to come. Nothing can ever take place of your beloved friend.");
 			System.exit(0);
@@ -53,7 +53,7 @@ public class Stage111 implements Stage {
 		else //option 2
 		{
 			System.out.println("You to check your snare trap. All the traps have been set off but not a single one has anything inside of them. Your stomache starts to "
-					+ "turn as you fall the ground in pain. You start to run home as best as you could with Archie helping by pushung you. Both you and Archie collapse "
+					+ "turn as you fall the ground in pain. You start to run home as best as you could with Archie helping by pushing you. Both you and Archie collapse "
 					+ "at the door steps of the house.");
 			if (!Game.coinflip2()) {
 				System.out.println("Your arm starts to burn as you see a red rash forming fast. your legs boil as they blister. You writhe in pain before everything "
