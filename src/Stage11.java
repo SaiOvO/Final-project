@@ -35,8 +35,8 @@ public class Stage11 implements Stage {
 		else if(option == 2)
 		{
 			ArrayList<String> attack = new ArrayList<String>(Arrays.asList(new String[] {"punch", "kick", "ghost punch"}));
-			System.out.println("\n*You have entered combat. You have 20 hitpoints and will always be reset at 20 at the start of each battle. The battle is like "
-					+ "always based on luck!\n");
+			System.out.println("\n*You have entered combat. You have 10 hitpoints and will always be reset at 10 at the start of each battle. The battle, like "
+					+ "always, based on luck!\n");
 			System.out.println("The invisible ghost shows herself and you can tell she seems weak, but you know she will not let you walk away so she charges at you.");
 			int health =10;
 			int ghealth=23;//ghost health
