@@ -21,13 +21,15 @@ public class Final {
 
 		System.out.println("Username is: " + Game.getGame().getUserName());
 		
+		String t = null;
+		
 		while(true)
 		{
 			playGame();
 			
 			System.out.print("Type yes to restart, no to exit.\n> ");
 			
-			String t = Game.scanner.nextLine();
+			t = Game.scanner.nextLine();
 			
 			while(true) 
 			{
@@ -38,6 +40,7 @@ public class Final {
 				else if (t.equals("yes"))
 				{
 					new Game(Game.getGame().getUserName()).initRoutine();
+					t = null;
 					break;
 				}
 				else 
