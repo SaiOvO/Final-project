@@ -14,7 +14,7 @@ public class Game {
 	
 	private String username;
 	
-	private boolean bDied;
+	private volatile boolean bDied;
 	
 	private Stage currentstage;
 	
