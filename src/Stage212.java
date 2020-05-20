@@ -14,9 +14,9 @@ public class Stage212 implements Stage{
         if(option == 1) 
         {
             System.out.println("As you walk home it starts to rain. Lucky the walk only took you a few hours and you found a lighter in your pocket to help light "
-            		+ "the way. You safely arrive home with the hare and Archie. You clean yourself and Archie adn prepare for a nights rest. In the morning you "
-            		+ "find a letter from your motther inviting you back home in the big city. For lunch you hear the hare you caught and you and Archie eat the "
-            		+ "best meal in a while. ");
+            		+ "the way. You safely arrive home with the hare and Archie. You clean yourself and Archie and prepare for a nights rest. In the morning you "
+            		+ "find a letter from your mother inviting you back home in the big city. For lunch, you and Archie eat the hare and it was the "
+            		+ "best meal you had in a while. ");
         }
         else 
         {
