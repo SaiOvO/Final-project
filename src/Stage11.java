@@ -19,7 +19,7 @@ public class Stage11 implements Stage {
 	@Override
 	public void executeRoutine() {
 		System.out.print("You walk around collecting small sticks for kindeling. You find an old tree that looks like you can chop it down with ease. "
-				+ "As you're collecting wood Archie starts barking behind you. You can't see anything when you are hit in the stomach and see a few leaves fly "
+				+ "As you're collecting wood Archie starts barking behind you. You can't see \nanything when you are hit in the stomach and see a few leaves fly "
 				+ "around you. Do you (1) Run away, (2) Attempt to fight, or (3) Flirt\n>");
 		
 		option = Game.getGame().nextInt(1, 3);
@@ -38,7 +38,7 @@ public class Stage11 implements Stage {
 			System.out.println("\n*You have entered combat. You have 10 hitpoints and will always be reset at 10 at the start of each battle. The battle, like "
 					+ "always, based on luck!\n");
 			System.out.println("The invisible ghost shows herself and you can tell she seems weak, but you know she will not let you walk away so she charges at you.");
-			int health =10;
+			int health =100;
 			int ghealth=23;//ghost health
 			while(health>0) {
 				System.out.println("You attack using your knife and slash down at her front.\n");
