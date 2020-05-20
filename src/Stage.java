@@ -4,7 +4,6 @@
  * @author Audrey Oh
  * @author Allison Qu
  * @author Brandon Kim
- * @author miryokuu
  */
 public interface Stage {
 	/**

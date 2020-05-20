@@ -7,8 +7,6 @@ import java.util.Scanner;
  * @author Audrey Oh
  * @author Allison Qu
  * @author Brandon Kim
- * @author miryokuu
- * @author not Emma
  */
 public class Game {
 	
