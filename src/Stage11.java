@@ -61,7 +61,7 @@ public class Stage11 implements Stage {
 				else {
 					ghealth-=2;
 				}
-				System.out.println("Your health: "+health+" "+ghealth+"\n");
+				System.out.println("Your health: "+health+" \nGhost health: "+ghealth+"\n");
 				if(health<=0) {
 					System.out.println("Sadly the ghost got the best of you. As you tkae your final breathe, she stares deeply into your eyes as both past present"
 							+ "and future \nall flash in yout mind at once as she explodes your lungs and you fall to the ground\n");
